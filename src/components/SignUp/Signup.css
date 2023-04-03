@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.grid-container {
+  display: flex;
+  width: 100vh;
+  height: 100vh;
+}
+.back-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-container {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+.sign-section {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  /* padding-left: 10%;
+    padding-top: 3%; */
+}
+.field-width {
+  width: 200px;
+  height: 30px;
+  margin: 7px;
+  border-radius: 5px;
+}
+.full-field {
+  width: 420px;
+  height: 30px;
+  margin: 7px;
+  border-radius: 5px;
+}
+.textarea {
+  height: 125px;
+  width: 250px;
+  margin: 7px;
+}
+
+.marginError {
+  margin-left: 10px;
+  color: red;
+  font-size: 10px;
+}
+.submit-btn {
+  width: 420px;
+  height: 50px;
+  background-color: rgb(105, 105, 105);
+  margin-left: 7px;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-left: 7px;
+  border-radius: 10px;
+  width: 70px;
+  text-align: center;
+  color: white;
+  background-color: rgb(105, 105, 105);
+}
+
+.custom-file-upload:hover {
+  background-color: #ddd;
+  color: grey;
+}
+.image-container {
+  width: 150px;
+  height: 170px;
+  margin-left: 7px;
+  border-color: black;
+  background-color: red;
+}
+.terms-label {
+  color: grey;
+}
+.terms-div {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.img-desp-container {
+  margin-top: 15px;
+}
+.browse-desp-container {
+  margin-left: 10px;
+}
+.m-7 {
+  margin-left: 7px;
+  color: grey;
+  font-size: 15px;
+}
+.form-section {
+  padding-top: 3%;
+  padding-left: 15%;
+}
+.left,
+.right {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+@media only screen and (min-width: 1500px) {
+  .field-width {
+    width: 300px;
+    height: 50px;
+  }
+  .full-field {
+    width: 620px;
+    height: 50px;
+  }
+  .textarea {
+    height: 150px;
+    width: 380px;
+  }
+  .marginError {
+    font-size: 16px;
+  }
+  .image-container {
+    width: 210px;
+    height: 200px;
+  }
+  .submit-btn {
+    width: 630px;
+    height: 50px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,320 @@
+.login2Child {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  background-color: transparent;
+  border: 0.5px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 918px;
+  height: 587px;
+}
+.imageChild {
+  position: relative;
+  width: 453px;
+  height: 589px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login1,
+.pleaseEnterYour {
+  position: absolute;
+  display: inline-block;
+}
+.login1 {
+  top: 15px;
+  left: 514px;
+  font-size: 50px;
+  color: var(--grey);
+  width: 165px;
+  height: 46px;
+}
+.pleaseEnterYour {
+  top: 79px;
+  left: 515px;
+  width: 382px;
+  height: 24px;
+}
+.emailInput {
+  border: 1px solid var(--grey);
+  font-size: var(--font-size-base);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 134px;
+  left: 513px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-lg);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailInput,
+.login3,
+.passwordInput {
+  font-family: var(--font-inter);
+}
+.passwordInput {
+  border: 1px solid var(--grey);
+  font-size: var(--font-size-base);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 208.39px;
+  left: 512.93px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 349.57px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login3 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  color: var(--color-white);
+  text-align: center;
+  width: 92px;
+}
+.loginButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) 132px;
+  background-color: var(--grey);
+  position: absolute;
+  top: 354px;
+  left: 514px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 15px 30px -10px rgba(70, 67, 67, 0.3);
+  width: 349px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.loginButton:hover {
+  background-color: #272c2e;
+}
+.dontHaveAn {
+  top: 414px;
+  left: 515px;
+  width: 181px;
+  height: 16px;
+}
+.dontHaveAn,
+.keepMeLogged,
+.signUp {
+  position: absolute;
+  display: inline-block;
+}
+.signUp {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 415px;
+  left: 696px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--grey);
+  text-align: left;
+}
+.signUp:hover {
+  color: #192224;
+}
+.keepMeLogged {
+  top: 6.95px;
+  left: 32.92px;
+  width: 163.57px;
+  height: 15.57px;
+}
+.forgetPassword,
+.tick {
+  cursor: pointer;
+  position: absolute;
+}
+.forgetPassword {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 8px;
+  left: 213px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--grey);
+  text-align: right;
+  display: inline-block;
+  width: 139.63px;
+  height: 15.57px;
+}
+.forgetPassword:hover {
+  color: #1a1a22;
+}
+.tick {
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: var(--grey);
+  width: 23px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dontFoget,
+.orContinueWith {
+  position: absolute;
+  top: 269px;
+  left: 510px;
+  width: 352.63px;
+  height: 23.57px;
+}
+.orContinueWith {
+  top: 0;
+  left: 109px;
+  display: inline-block;
+  width: 134px;
+  height: 16px;
+}
+.continue,
+.continueChild,
+.continueItem {
+  position: absolute;
+  top: 6.79px;
+  left: 0;
+  width: 101.74px;
+  height: 1.32px;
+}
+.continue,
+.continueItem {
+  top: 6.47px;
+  left: 241.35px;
+  width: 100.74px;
+}
+.continue {
+  top: 480px;
+  left: 515px;
+  width: 342.09px;
+  height: 16px;
+}
+.googleChild {
+  position: relative;
+  width: 22.38px;
+  height: 23.72px;
+  flex-shrink: 0;
+}
+.google {
+  cursor: pointer;
+  border: 1px solid var(--color-darkslategray-100);
+  padding: var(--padding-3xs) var(--padding-4xl);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.facebookChild {
+  position: relative;
+  width: 22.38px;
+  height: 23.74px;
+  flex-shrink: 0;
+}
+.apple,
+.facebook {
+  cursor: pointer;
+  border: 1px solid var(--color-darkslategray-100);
+  background-color: var(--color-white);
+  top: 0;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.facebook {
+  padding: var(--padding-3xs) var(--padding-4xl);
+  position: absolute;
+  left: 77px;
+}
+.apple {
+  padding: var(--padding-3xs) 22px;
+  left: 154px;
+}
+.apple,
+.icons,
+.twitter {
+  position: absolute;
+}
+.twitter {
+  cursor: pointer;
+  border: 1px solid var(--color-darkslategray-100);
+  padding: var(--padding-3xs) var(--padding-4xl);
+  background-color: var(--color-white);
+  top: 0;
+  left: 227.93px;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icons {
+  top: 512px;
+  left: 537px;
+  width: 296.3px;
+  height: 43.74px;
+}
+.login,
+.login2 {
+  position: absolute;
+  width: 917px;
+  height: 586px;
+}
+.login {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.login2 {
+  top: 19px;
+  left: 215px;
+}
+.desktop1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 629px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
