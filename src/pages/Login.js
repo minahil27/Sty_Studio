@@ -1,6 +1,6 @@
 import React from "react";
-import Desktop1 from "../components/Login/Desktop1";
-import "../components/Login/Desktop1.module.css";
+import Desktop1 from "../components/Login/login";
+import "../components/Login/login.css";
 const Login = () => {
   return (
     <>

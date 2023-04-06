@@ -1,83 +1,89 @@
-.desktop3Child {
+.desktop-3-child {
   position: absolute;
   top: 89px;
-  left: 482px;
+  left: 500px;
   background-color: var(--color-white);
-  border: 1px solid var(--grey);
+  border: 1px solid Black;
+  border-radius: 10px;
   box-sizing: border-box;
-  width: 396px;
-  height: 437px;
+  width: 360px;
+  height: 380px;
 }
-.changePassword {
+.change-password {
   position: absolute;
   top: 124px;
-  left: 544px;
+  left: 543px;
+  font-size: 30px;
+  text-align: center;
+  color: #3d5054;
   display: inline-block;
   width: 272px;
   height: 46px;
 }
 .password {
-  border: 1px solid var(--grey);
+  border: 1px solid black;
   background-color: var(--color-white);
   position: absolute;
-  top: 208px;
-  left: 517px;
-  border-radius: var(--br-3xs);
+  top: 200px;
+  left: 535px;
+  border-radius: 10px;
   box-sizing: border-box;
-  width: 326px;
+  width: 290px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-mini) var(--padding-7xl);
+  padding: 16px 11px;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .confirm,
 .password,
-.setPassword {
+.set-password {
   font-size: var(--font-size-xl);
   font-family: var(--font-inter);
 }
 .confirm {
-  border: 1px solid var(--grey);
+  border: 1px solid black;
   background-color: var(--color-white);
   position: absolute;
-  top: 292px;
-  left: 517px;
-  border-radius: var(--br-3xs);
+  top: 275px;
+  left: 535px;
+  border-radius: 10px;
   box-sizing: border-box;
-  width: 326px;
+  width: 290px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-mini) var(--padding-7xl);
+  padding: 16px 11px;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.setPassword {
+.set-password {
   position: relative;
-  color: var(--color-white);
+  color: white;
   text-align: center;
 }
-.book {
+.setpass {
+  border: 1px solid black;
   cursor: pointer;
-  border: 1px solid var(--color-black);
-  padding: var(--padding-sm) var(--padding-36xl);
-  background-color: var(--grey);
+  background-color:#3d5054;
   position: absolute;
-  top: 415px;
-  left: 557px;
-  border-radius: var(--br-3xs);
-  box-shadow: 0 15px 30px -10px rgba(70, 67, 67, 0.3);
+  top: 380px;
+  left: 583px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 200px;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
+  padding: 14px 55px;
   align-items: center;
   justify-content: flex-start;
 }
-.book:hover {
-  background-color: var(--color-gray-200);
+.setpass:hover {
+  background-color: #161c1d;
 }
-.desktop3 {
+.desktop-3 {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
