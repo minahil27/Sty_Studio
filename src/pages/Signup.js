@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { useFormikContext } from "formik";
 import * as Yup from "yup";
 import "../components/SignUp/Signup.css";
 import signup from "../assets/signup.jpg";
-import PreviewImage from "../components/SignUp/PreviewImage";
+import imageicon from "../assets/asalon.jpg";
+// import PreviewImage from "../components/SignUp/PreviewImage";
 import { Link } from "react-router-dom";
 const Signup = () => {
+  const [imagePreview, setImagePreview] = useState();
+  const [selectedImage, setSelectedImage] = useState(null);
+
   const initialValues = {
     username: "",
     email: "",
@@ -45,7 +49,7 @@ const Signup = () => {
         <div className="right">
           <div className="form-section">
             <h1>Register</h1>
-            <h6>Register your account in seconds</h6>
+            <h5 className="head6">Register your account in seconds</h5>
             <Formik
               initialValues={initialValues}
               validationSchema={validationSchema}
@@ -151,14 +155,33 @@ const Signup = () => {
                         }}
                       />
                       <div className="image-container">
-                        {initialValues.image && (
+                        {/* {initialValues.image && (
                           <PreviewImage file={initialValues.image} />
-                        )}
+                        )} */}
+                        <input
+                          name="file"
+                          id="file-input"
+                          type="file"
+                          // onChange={(e) => {
+                          //   if (e.target.files && e.target.files[0]) {
+                          //     setImagePreview(
+                          //       URL.createObjectURL(e.target.files[0])
+                          //     );
+                          //   }
+                          //   setSelectedImage(e.target?.files?.[0]);
+                          // }}
+                        />
                       </div>
                     </div>
                     <div className="browse-desp-container">
                       <div>
-                        <label htmlFor="image" className="custom-file-upload">
+                        {/* <label htmlFor="image" className="custom-file-upload">
+                          Browse
+                        </label> */}
+                        <label
+                          htmlFor="file-input"
+                          className="custom-file-upload"
+                        >
                           Browse
                         </label>
                       </div>
