@@ -49,7 +49,7 @@ const Signup = () => {
         <div className="right">
           <div className="form-section">
             <h1>Register</h1>
-            <h5 className="head6">Register your account in seconds</h5>
+            <p className="head6">Register your account in seconds</p>
             <Formik
               initialValues={initialValues}
               validationSchema={validationSchema}

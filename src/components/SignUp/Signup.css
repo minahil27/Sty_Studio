@@ -70,20 +70,36 @@ input:-ms-input-placeholder {
   padding-right: 7px;
   border-radius: 5px;
   border-color: rgb(187, 180, 180);
+  outline: 0;
+  padding: 0.375rem 0.75rem;
 }
 .full-field {
   width: 420px;
   height: 30px;
   margin: 7px;
   border-radius: 5px;
+  padding: 0.375rem 0.75rem;
   border-color: rgb(187, 180, 180);
+  outline: 0;
+}
+.field-width:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.full-field:focus {
+  border-color: #80bdff;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 .textarea {
   height: 125px;
   width: 250px;
   margin: 7px;
 }
-
+.textarea:focus {
+  outline: 0;
+}
 .marginError {
   margin-left: 10px;
   color: red;
